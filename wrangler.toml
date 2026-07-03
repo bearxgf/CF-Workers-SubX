@@ -1,4 +1,4 @@
-name = "cf-workers-subx"
+name = "subx"
 main = "index.js"
 compatibility_date = "2025-07-23"
 keep_vars = true
