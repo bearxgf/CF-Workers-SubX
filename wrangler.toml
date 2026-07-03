@@ -1,0 +1,17 @@
+name = "cf-workers-subx"
+main = "index.js"
+compatibility_date = "2026-07-01"
+
+# 纯 Worker 项目，无静态资源
+[assets]
+enabled = false
+
+# 环境变量（部署后在 Cloudflare Dashboard 配置实际值）
+[vars]
+TOKEN = "auto"
+TG = "0"
+
+# KV 命名空间（如需使用请在 Dashboard 创建后绑定）
+# [[kv_namespaces]]
+# binding = "KV"
+# id = "your-kv-id"
