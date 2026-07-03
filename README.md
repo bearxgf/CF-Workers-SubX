@@ -3,7 +3,11 @@
 基于 Cloudflare Workers 的高性能订阅聚合与格式转换系统。
 A high-performance subscription aggregation and format conversion system.
 
+## 🚀 快速部署 / Quick Deployment
+
 [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://workers.cloudflare.com/deploy?url=https://github.com/bearxgf/CF-Workers-SubX)
+
+> **个人快速入口**：如果你已登录 Cloudflare，可点击 [直接进入 Workers 管理后台](https://dash.cloudflare.com/337617bb13e5f3b116600bfd44c0047d/workers-and-pages) 进行操作。
 
 ---
 
@@ -20,7 +24,7 @@ A high-performance subscription aggregation and format conversion system.
 2. 点击 **创建命名空间 (Create a namespace)**，输入名称 `sub_data` 并确认。
 
 ### 第二步：部署 Worker
-1. 点击上方的 **[一键部署按钮]([https://workers.cloudflare.com/deploy?url=https://github.com/bearxgf/CF-Workers-SubX](https://workers.cloudflare.com/deploy?url=https://github.com/bearxgf/CF-Workers-SubX)** 跳转至 Cloudflare。
+1. 点击上方的 **[一键部署按钮](https://workers.cloudflare.com/deploy?url=https://github.com/bearxgf/CF-Workers-SubX)** 跳转至 Cloudflare。
 2. 创建 Worker 后进入 **编辑代码 (Edit Code)** 页面。
 3. 清空原有内容，将本仓库的 [index.js](index.js) 代码全部粘贴进去，点击 **部署 (Deploy)**。
 
